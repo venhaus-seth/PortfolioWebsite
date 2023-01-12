@@ -1,0 +1,165 @@
+ul {
+  list-style: none;
+}
+
+
+.MainPage {
+  display: flex;
+  background-color: rgb(143, 143, 157);
+  max-height: 100%;
+  height: 929px; 
+}
+
+
+/* set height to fit screen^^^^ */
+
+/* CONTACT ME -LEFTSIDE CONTENT */
+.Content {
+  margin-top: 50px;
+  padding-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  border-radius: 5%;
+  width: 75%;
+  text-align: center;
+  background-color: rgb(165, 165, 174);
+}
+
+.CMContent{
+  display: flex;
+  flex-direction: row;
+}
+
+.CMLeft{
+  width: 50%;
+}
+
+.CMLeftLinks {
+  display: flex;
+  justify-content: start;
+  padding-left: 100px;
+  font-size: larger;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+/* CONTACT ME - RIGHTSIDE CONTENT */
+.CMRight{
+  width: 50%;
+}
+
+/* SIDEBAR */
+.SideBar {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  border-right: 1px solid black;
+}
+
+.LinksContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img {
+  height: 250px;
+  padding-bottom: 20px;
+  border-radius: 50%;
+}
+
+.imgContainer {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 20px;
+  width: 100%;
+}
+
+.icon {
+  height: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  color: rgb(147, 4, 147);
+  box-shadow: 2px 2px 10px rgb(147, 4, 147);
+}
+
+.IconBar {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.Link {
+  padding: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(74, 74, 74);
+}
+
+.Link:hover {
+  color: rgb(147, 4, 147);
+  text-shadow: 5px 5px 10px rgb(74, 74, 74);
+}
+
+/* SKILLS SECTION */
+.SContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.SHeaderbox {
+}
+
+.SkillTypes {
+  display: flex;
+  justify-content: center;
+}
+
+.Type {
+  margin: 0px 15px 0px 15px;
+}
+
+.SCSkill {
+  margin: 40px;
+  width: 110px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Language {
+  border: 1px solid;
+  border-color: rgb(189, 5, 5);
+  /* color: rgb(189, 5, 5); */
+}
+
+.Framework {
+  border: 1px solid;
+  border-color: rgb(16, 13, 176);
+}
+
+.Database {
+  border: 1px solid;
+  border-color: rgb(59, 144, 2);
+}
+
+.Tool {
+  border: 1px solid;
+  border-color: orange;
+}
+
+.SCSkill:hover {
+  /* color: rgb(147, 4, 147); */
+  font-weight: 700;
+  box-shadow: 5px 5px 15px rgb(74, 74, 74);
+}
