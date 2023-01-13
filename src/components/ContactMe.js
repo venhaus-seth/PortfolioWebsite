@@ -19,7 +19,7 @@ const ContactMe = () => {
             <img className="icon" src="https://spng.pinpng.com/pngs/s/19-198450_github-icon-png-github-icon-transparent-png.png" alt="GitHub Icon"/>
             <p className='Link'>Github</p>
           </a>
-
+          
           <div className='CMLeftLinks'>
             <img className="icon" src={require("../Views/Images/Email.png")} alt="email Icon"/>
             <p className='L'>venhaus.seth@gmail.com</p>
@@ -34,6 +34,11 @@ const ContactMe = () => {
             <img className="icon" src="http://cdn.onlinewebfonts.com/svg/img_431836.png" alt="email Icon"/>
             <p className='L'>Seattle, WA</p>
           </div>
+
+          <button className='ResumeBtn'>
+            <img className='DLIcon' src="https://icon-library.com/images/download-icon-png/download-icon-png-8.jpg" alt="email Icon"/>
+            <p className='L'>Resume</p>
+          </button>
 
         </div>
 
