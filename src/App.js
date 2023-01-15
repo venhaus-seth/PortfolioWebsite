@@ -10,13 +10,14 @@ import SideBar from "./components/SideBar"
 function App() {
   return (
     <div className='MainPage'>
+      <SideBar/>
         <Routes>
           <Route path='/' element={<AboutMe />} />
-          <Route path='/projects' element={<Projects />} />
+          <Route path='/projects/*' element={<Projects />} />
           <Route path='/skills' element={<Skills />} />
           <Route path='/contactMe' element={<ContactMe />} />
         </Routes>
-        <SideBar/>
+       
     </div>
   );
 }
