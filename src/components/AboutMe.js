@@ -3,7 +3,7 @@ import {Routes, Route, Link} from 'react-router-dom'
 import MyCodingJourney from "./MyCodingJourney"
 import TheBeforeDays from "./TheBeforeDays"
 
-const Aboutme = () => {
+const AboutMe = () => {
     return (
         <div className="Content">
             <h1>Let's Talk About <span style={{color: "rgb(147, 4, 147)"}}>Seth</span> For A Second</h1>
@@ -11,14 +11,14 @@ const Aboutme = () => {
             <div className="ABContent">
                 <div className="ABLeft">
                     
-                    <div>
-                        <Link to="/MyCodingJourney">My Coding Journey</Link>
-                        <Link to="/TheBeforeDays">The Before Days</Link>
+                    <div className="ABHeader">
+                        <Link className="ABHeaderLink" to="aboutMe/MyCodingJourney">My Coding Journey</Link>
+                        <Link className="ABHeaderLink" to="aboutMe/TheBeforeDays">The Before Days</Link>
                     </div>
 
                     <Routes>
-                        <Route path='/MyCodingJourney' element={<MyCodingJourney />} />
-                        <Route path='/TheBeforeDays' element={<TheBeforeDays />} />
+                        <Route path='aboutMe/MyCodingJourney' element={<MyCodingJourney />} />
+                        <Route path='aboutMe/TheBeforeDays' element={<TheBeforeDays />} />
                     </Routes>
                     
                 </div>
@@ -36,4 +36,4 @@ const Aboutme = () => {
     );
 };
 
-export default Aboutme;
+export default AboutMe;
