@@ -19,7 +19,7 @@ const SideBar = () => {
             </div>
         </div>
         <div className="LinksContainer">
-            <Link className="Link" to='/'>About Me</Link>
+            <Link className="Link" to='/aboutMe'>About Me</Link>
             <Link className="Link" to='/projects'>Projects</Link>
             <Link className="Link" to='/skills'>Technical Skills</Link>
             <Link className="Link" to='/contactme'>Contact Me</Link>
