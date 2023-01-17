@@ -244,6 +244,7 @@ ul {
 .PIndividualContent {
   display: flex;
   width: 100%;
+  margin-top: 50px;
 }
 
 .PMadeWith {
@@ -281,4 +282,10 @@ ul {
 .PRightSideContent {
   text-align: center;
   width: 70%;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }

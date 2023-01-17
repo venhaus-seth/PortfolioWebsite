@@ -12,24 +12,25 @@ const AboutMe = () => {
                 <div className="ABLeft">
                     
                     <div className="ABHeader">
-                        <Link className="ABHeaderLink" to="aboutMe/MyCodingJourney">My Coding Journey</Link>
-                        <Link className="ABHeaderLink" to="aboutMe/TheBeforeDays">The Before Days</Link>
+                        <Link className="ABHeaderLink" to="MyCodingJourney">My Coding Journey</Link>
+                        <Link className="ABHeaderLink" to="TheBeforeDays">The Before Days</Link>
                     </div>
 
                     <Routes>
-                        <Route path='aboutMe/MyCodingJourney' element={<MyCodingJourney />} />
-                        <Route path='aboutMe/TheBeforeDays' element={<TheBeforeDays />} />
+                        <Route path="/" element={<MyCodingJourney />} />
+                        <Route path='MyCodingJourney' element={<MyCodingJourney />} />
+                        <Route path='TheBeforeDays' element={<TheBeforeDays />} />
                     </Routes>
                     
                 </div>
                 {/* right side of page, fav list and ??? */}
                 <div className="ABRight">
-                  <h3>Quick Facts</h3>
-                  <p>Favorite Language: C#</p>
-                  <p>First Coding Language: Python</p>
-                  <p>Location: Seattle, WA</p>
-                  <p>Born: Anchorage, AK</p>
-                  <p>Favorite Meal: Panang Curry</p>
+                  <h2>Quick Facts</h2>
+                  <p><strong>Favorite Language:</strong> C#</p>
+                  <p><strong>First Coding Language:</strong> Python</p>
+                  <p><strong>Location:</strong> Seattle, WA</p>
+                  <p><strong>Born:</strong> Anchorage, AK</p>
+                  <p><strong>Favorite Meal:</strong> Panang Curry</p>
                 </div>
             </div>
         </div>

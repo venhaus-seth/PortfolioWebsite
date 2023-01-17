@@ -11,14 +11,15 @@ const Projects = () => {
       
       <div className='PContent'>
         <div className='PProjectList'>
-          <Link className='PProjectBtn' to="projects/Giftr" >Giftr</Link>
-          <Link className='PProjectBtn' to="projects/FactGenerator">Fact Generator</Link>
+          <Link className='PProjectBtn' to="Giftr" >Giftr</Link>
+          <Link className='PProjectBtn' to="FactGenerator">Fact Generator</Link>
           <Link className='PProjectBtn'>Coming Soon...</Link>
         </div>
         
         <Routes className="PRightSideContent">
-            <Route path='projects/Giftr' element={<Giftr />} />
-            <Route path='projects/FactGenerator' element={<FactGenerator />} />
+            <Route path='/' element={<Giftr/>} />
+            <Route path='Giftr' element={<Giftr />} />
+            <Route path='FactGenerator' element={<FactGenerator />} />
           </Routes>
       </div>
     </div>
