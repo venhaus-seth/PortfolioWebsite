@@ -19,10 +19,10 @@ const SideBar = () => {
             </div>
         </div>
         <div className="LinksContainer">
-            <Link className="Link" to='/aboutMe'>About Me</Link>
-            <Link className="Link" to='/projects'>Projects</Link>
-            <Link className="Link" to='/skills'>Technical Skills</Link>
-            <Link className="Link" to='/contactme'>Contact Me</Link>
+            <Link className="PurpleBtn" to='/aboutMe'>About Me</Link>
+            <Link className="PurpleBtn" to='/projects'>Projects</Link>
+            <Link className="PurpleBtn" to='/skills'>Technical Skills</Link>
+            <Link className="PurpleBtn" to='/contactme'>Contact Me</Link>
         </div>
     </div>
   )

@@ -11,9 +11,9 @@ const Projects = () => {
       
       <div className='PContent'>
         <div className='PProjectList'>
-          <Link className='PProjectBtn' to="Giftr" >Giftr</Link>
-          <Link className='PProjectBtn' to="FactGenerator">Fact Generator</Link>
-          <Link className='PProjectBtn'>Coming Soon...</Link>
+          <Link className='PurpleBtn' to="Giftr" >Giftr</Link>
+          <Link className='PurpleBtn' to="FactGenerator">Fact Generator</Link>
+          <Link className='PurpleBtn'>Coming Soon...</Link>
         </div>
         
         <Routes className="PRightSideContent">

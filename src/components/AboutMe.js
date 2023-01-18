@@ -12,8 +12,8 @@ const AboutMe = () => {
                 <div className="ABLeft">
                     
                     <div className="ABHeader">
-                        <Link className="ABHeaderLink" to="MyCodingJourney">My Coding Journey</Link>
-                        <Link className="ABHeaderLink" to="TheBeforeDays">The Before Days</Link>
+                        <Link className="PurpleBtn" to="MyCodingJourney">My Coding Journey</Link>
+                        <Link className="PurpleBtn" to="TheBeforeDays">The Before Days</Link>
                     </div>
 
                     <Routes>
