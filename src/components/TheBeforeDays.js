@@ -4,7 +4,7 @@ const TheBeforeDays = () => {
   return (
     <div>
 
-      <h3>The Before Days</h3>
+      <h2 className="subHeaderFont">The Before Days</h2>
 
       <p className='ABBlurb'>I was born, raise, and educated in Anchorage, AK. Despite taking a year and half hiatus from college, I graduated from the University of Alaska, Anchorage in 2019 with a Bachelors in Business Administration and a concentration in Property Management. </p>
 

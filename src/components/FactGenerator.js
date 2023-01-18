@@ -5,7 +5,7 @@ const FactGenerator = () => {
   return (
     <div className='PRightSideContent'>
 
-      <h1>FactGenerator</h1>
+      <h1 className="subHeaderFont">Fact Generator</h1>
 
       <div className='PIndividualContent'>
 

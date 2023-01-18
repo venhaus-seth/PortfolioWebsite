@@ -3,17 +3,21 @@
 }
 
 .nameFont {
-  font-family: 'Oxygen', sans-serif;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Merienda One', cursive;
   font-weight: 100;
 }
 
 .headerFont {
-  font-family: 'Oxygen', sans-serif;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Merienda One', cursive;
   font-weight: 200;
   font-size: 50px;
 }
+
+.subHeaderFont {
+  font-family: 'Merienda One', cursive;
+  font-weight: 100;
+}
+
 .mainHeaderFont {
   font-weight: 200;
   font-size: 50px;
@@ -21,8 +25,7 @@
 }
 
 .mainHeaderBox {
-  font-family: 'Oxygen', sans-serif;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Merienda One', cursive;
   margin: 40px;
   font-size: 25px;
 }
@@ -284,7 +287,7 @@ h1 {
 .PurpleBtn:hover {
   box-shadow: 3px 3px 5px black;
   background-color: rgb(200, 77, 200);
-  border: none;
+  border: 1px solid rgb(109, 43, 109);
 }
 
 .ABBlurb{
