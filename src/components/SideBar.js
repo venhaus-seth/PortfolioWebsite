@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import '../App.css'
+import Seth from '../Views/Images/Seth.png'
 
 const SideBar = () => {
   return (
     <div className="SideBar">
         <div className="imgContainer">
-            <img className="img" src="https://tse3.mm.bing.net/th?id=OIP.puMo9ITfruXP8iQx9cYcqwHaGJ&pid=Api" alt="Image of Seth"/>
-            <p>Andrew "Seth" Venhaus</p>
+            <img className="img" src={Seth} alt="Image of Seth"/>
+            <h2>Andrew "Seth" Venhaus</h2>
             <div className="IconBar">
             
                 <a href="https://www.linkedin.com/in/seth-venhaus-347486183/">
