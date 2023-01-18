@@ -4,7 +4,7 @@ const ContactMe = () => {
   return (
     <div className='Content'>
 
-      <h1>Let's Connect!</h1>
+      <h1 className='headerFont'>Let's Connect!</h1>
 
       <div>
         

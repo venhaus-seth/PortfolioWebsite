@@ -6,7 +6,13 @@ import TheBeforeDays from "./TheBeforeDays"
 const AboutMe = () => {
     return (
         <div className="Content">
-            <h1>Let's Talk About <span style={{color: "rgb(208, 181, 241)", textShadow: "2px 2px black"}}>Seth</span> For A Second</h1>
+            <div className="mainHeaderBox">
+                <small>Let's talk</small>
+                <h1 className='mainHeaderFont'> About <span style={{color: "rgb(208, 181, 241)", textShadow: "2px 2px black"}}>Seth</span></h1>
+                <small> For A Second</small>
+            </div>
+            
+
             {/* left side of page, bio */}
             <div className="ABContent">
                 <div className="ABLeft">
@@ -15,7 +21,7 @@ const AboutMe = () => {
                         <Link className="PurpleBtn" to="MyCodingJourney">My Coding Journey</Link>
                         <Link className="PurpleBtn" to="TheBeforeDays">The Before Days</Link>
                     </div>
-
+                    
                     <Routes>
                         <Route path="/" element={<MyCodingJourney />} />
                         <Route path='MyCodingJourney' element={<MyCodingJourney />} />

@@ -7,13 +7,13 @@ import FactGenerator from './FactGenerator';
 const Projects = () => {
   return (
     <div className='Content'>
-      <h1>Projects</h1>
+      <h1 className='headerFont'>My Projects</h1>
       
       <div className='PContent'>
         <div className='PProjectList'>
           <Link className='PurpleBtn' to="Giftr" >Giftr</Link>
           <Link className='PurpleBtn' to="FactGenerator">Fact Generator</Link>
-          <Link className='PurpleBtn'>Coming Soon...</Link>
+          <Link className='disabledPurpleBtn'>Coming Soon...</Link>
         </div>
         
         <Routes className="PRightSideContent">

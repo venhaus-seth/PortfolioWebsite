@@ -8,7 +8,7 @@ const SideBar = () => {
     <div className="SideBar">
         <div className="imgContainer">
             <img className="img" src={Seth} alt="Image of Seth"/>
-            <h2>Andrew "Seth" Venhaus</h2>
+            <h2 className="nameFont" >Andrew "Seth" Venhaus</h2>
             <div className="IconBar">
             
                 <a href="https://www.linkedin.com/in/seth-venhaus-347486183/">

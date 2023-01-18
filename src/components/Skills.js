@@ -4,8 +4,8 @@ const Skills = () => {
   return (
     <div className='Content'>
 
-      <div className='SHeaderbox'>
-        <h1 className='SHeader'>Skills</h1>
+      <div>
+        <h1  className='headerFont'>My Skills</h1>
         <div className='SkillTypes'>
           <p className='Type'><strong style={{color: "rgb(189, 5, 5)"}}>5</strong> Languages</p>
           <p className='Type'><strong style={{color: "rgb(16, 13, 176)"}}>6</strong> Frameworks/libraries</p>
