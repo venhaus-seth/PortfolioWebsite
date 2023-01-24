@@ -1,4 +1,5 @@
 import React from 'react'
+import Resume from '../Views/Seth.Venhaus.Jan2023.pdf'
 
 const ContactMe = () => {
   return (
@@ -10,7 +11,7 @@ const ContactMe = () => {
         
         <p className='CMBlurb'>I'd love to connect! Find me on <strong>LinkedIn</strong> or <strong>Github</strong> to see what I've been up to lately!</p><br/>
 
-        <p className='CMBlurb'>I'm also interested in finding full-time employment. If you think I would be a great fit for a role, please don't hesitate to reach out to me!</p>
+        <p className='CMBlurb'>I'm also interested in finding full-time employment as of January 2023. If you think I would be a good fit for a role, please don't hesitate to reach out to me!</p>
 
       </div>
       
@@ -28,10 +29,10 @@ const ContactMe = () => {
             <p className='Link'>Github</p>
           </a>
 
-          <button className='ResumeBtn'>
+          <a href={Resume} download="Resume" target='_blank' className='PurpleBtn'>
             <img className='DLIcon' src="https://icon-library.com/images/download-icon-png/download-icon-png-8.jpg" alt="email Icon"/>
-            <p className='L'>Resume</p>
-          </button>
+            <p className='ResumeText'>Resume</p>
+          </a>
 
         </div>
 
