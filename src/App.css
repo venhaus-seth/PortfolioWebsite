@@ -16,6 +16,7 @@
 .subHeaderFont {
   font-family: 'Merienda One', cursive;
   font-weight: 100;
+  text-decoration: underline #b384c2;
 }
 
 .mainHeaderFont {
@@ -36,20 +37,19 @@ h1 {
 
 .MainPage {
   display: flex;
-  background-color: rgb(143, 143, 157);
-  max-height: 100%;
-  height: 929px; 
+  background-color: slategray;
+  height: 100vh;
   font-family: 'Oxygen', sans-serif;
-  /* set height to auto-fit screen^^^^ */
 }
 
 .Content {
-  margin: 50px 50px 50px 50px;
-  padding-top: 50px 50px 50px 50px;
-  border-radius: 5%;
+  margin: 40px 20px 40px 20px;
+  padding-top: 40px 40px 40px 40px;
+  border-radius: 50px;
   width: 75%;
   text-align: center;
-  background-color: rgb(165, 165, 174);
+  /* background-color: rgb(165, 165, 174); */
+  background-color: #b87333;
 }
 
 
@@ -107,7 +107,6 @@ h1 {
 }
 
 
-
 /* SIDEBAR */
 
 .SideBar {
@@ -119,9 +118,14 @@ h1 {
 }
 
 .LinksContainer {
+  margin: 0px 0px 20px 40px;
+  padding: 10px;
+  background-color: #b87333;
+  border-radius: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: auto;
 }
 
 .img {
@@ -131,11 +135,13 @@ h1 {
 }
 
 .imgContainer {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 40px 20px 20px 40px;
+  padding: 10px;
   text-align: center;
   font-size: 20px;
-  width: 100%;
+  width: auto;
+  background-color: #b87333;
+  border-radius: 50px;
 }
 
 .icon {
@@ -157,21 +163,6 @@ h1 {
   width: 100%;
 }
 
-/* delete? */
-.Link {
-  
-  /* margin: 20px 0px 20px 0px;
-  padding: 10px;
-  font-size: large;
-  background-color: rgb(208, 181, 241);
-  border-radius: 10px;
-  box-shadow: 1px 1px 2px black;
-  color: black;
-  text-decoration: none;
-  font-weight: 600; */
-}
-
-/* delete? */
 .Link:hover {
   box-shadow: 3px 3px 5px black;
   background-color: rgb(147, 132, 159);
@@ -180,39 +171,51 @@ h1 {
 
 /* SKILLS SECTION */
 
-.SContent {
+.Scontent {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.SColumn {
+  display: flex;
+  flex-direction: column
+  ;
 }
 
 .SkillTypes {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .Type {
   margin: 0px 15px 0px 15px;
+  width: 110px;
 }
 
 .SCSkill {
-  margin: 40px;
+  margin: 15px 0px 15px 0px;
   width: 110px;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 1px 1px 2px black;
+  font-weight: 600;
+  /* background-color: black; */
 }
 
 .Language {
   border: 1px solid;
-  border-color: rgb(189, 5, 5);
-  /* color: rgb(189, 5, 5); */
+  /* border-color: rgb(189, 5, 5);
+  color: rgb(189, 5, 5); */
+  background-color: rgb(189, 5, 5);
 }
 
 .Framework {
   border: 1px solid;
   border-color: rgb(16, 13, 176);
+  color: rgb(16, 13, 176);
 }
 
 .Database {
@@ -252,7 +255,8 @@ h1 {
   margin: 20px 0px 20px 0px;
   padding: 10px 20px 10px 20px;
   font-size: large;
-  background-color: rgb(208, 181, 241);
+  background-color: #b384c2;
+  /* background-color: rgb(208, 181, 241); */
   border-radius: 10px;
   box-shadow: 1px 1px 2px black;
   color: black;
@@ -267,7 +271,7 @@ h1 {
   margin: 20px 0px 20px 0px;
   padding: 10px;
   font-size: large;
-  background-color: rgb(208, 181, 241);
+  background-color: #b07ac2;
   border-radius: 10px;
   box-shadow: 1px 1px 2px black;
   color: black;
@@ -279,8 +283,7 @@ h1 {
 
 .PurpleBtn:hover {
   box-shadow: 3px 3px 5px black;
-  background-color: rgb(200, 77, 200);
-  border: 1px solid rgb(109, 43, 109);
+  background-color: #a46cb6;
 }
 
 .ABBlurb{

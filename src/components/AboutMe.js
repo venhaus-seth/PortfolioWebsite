@@ -9,7 +9,7 @@ const AboutMe = () => {
 
             <div className="mainHeaderBox">
                 <small>Let's talk</small>
-                <h1 className='mainHeaderFont'> About <span style={{color: "rgb(208, 181, 241)", textShadow: "2px 2px black"}}>Seth</span></h1>
+                <h1 className='mainHeaderFont'> About <span style={{color: "#b384c2", textShadow: "2px 2px black"}}>Seth</span></h1>
                 <small> For A Second</small>
             </div>
             
