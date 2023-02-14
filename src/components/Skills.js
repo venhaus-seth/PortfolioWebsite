@@ -5,12 +5,12 @@ const Skills = () => {
     <div className='Content'>
 
       <div>
-        <h1  className='headerFont'>My Skills</h1>
+        <h1  className='headerFont'>Technical Skills</h1>
         <div className='SkillTypes'>
-          <p className='Type'><strong style={{color: "rgb(189, 5, 5)"}}>5</strong> Languages</p>
-          <p className='Type'><strong style={{color: "rgb(16, 13, 176)"}}>6</strong> Frameworks/ libraries</p>
-          <p className='Type'><strong style={{color: "rgb(59, 144, 2)"}}>2</strong> Databases</p>
-          <p className='Type'><strong style={{color: "orange"}}>7</strong> Tools</p>
+          <p className='Type'><strong>5</strong> Languages</p>
+          <p className='Type'><strong>6</strong> Frameworks/ libraries</p>
+          <p className='Type'><strong>2</strong> Databases</p>
+          <p className='Type'><strong>7</strong> Tools</p>
         </div>
       </div>
 

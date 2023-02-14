@@ -1,5 +1,6 @@
 import React from 'react'
 import { Player} from 'video-react'
+import video from "../Views/Giftr.mp4"
 
 const GiftrVideo = () => {
   return (
@@ -7,8 +8,8 @@ const GiftrVideo = () => {
         playsInline
         fluid={false}
         width={500}
-        height={200}
-        src='https://www.youtube.com/watch?v=UT5F9AXjwhg'
+        height={235}
+        src = {video} 
         />
   )
 }

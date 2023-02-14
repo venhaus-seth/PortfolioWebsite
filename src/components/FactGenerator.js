@@ -12,14 +12,16 @@ const FactGenerator = () => {
         <div className='PMadeWith'>
 
           <strong>Made with:</strong>
-          <p>C#</p>
-          <p>ASP.NET Core</p>
-          <p>MYSQL</p>
-          <p>CSS</p>
+          <p>JavaScript</p>
+          <p>Express</p>
+          <p>React</p>
           <p>Bootstrap</p>
+          <p>MongoDB</p>
         </div>
-        <p className='PDescription'> DESCription Osdadsf dsfgdfg dfgdf gdfds dfsdf sdfsdfsdf sdfsfsd sdfsdf sdfsdgsthw hwtrba faerhae fgdfgdfgDFJSDNFKJSD FKSJD FKSJD FKSDJF SJDFKJ</p>
-        
+        <div className='PDescription'>
+          <p> My Fact Generator application stays true to its name. This application generates random fact for you, which you are able to save into a favorites list. </p>
+          <p>I build this application to get more familiar with API calls, the React framework, and full-stack JavaScript projects.</p>
+        </div>
       </div>
       <div className='video'>
         <FactVideo/>

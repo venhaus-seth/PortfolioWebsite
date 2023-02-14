@@ -1,5 +1,6 @@
 import React from 'react'
 import { Player} from 'video-react'
+import Fact from "../Views/Fact.mp4"
 
 
 const FactVideo = () => {
@@ -8,8 +9,8 @@ const FactVideo = () => {
         playsInline
         fluid={false}
         width={500}
-        height={200}
-        src='https://www.youtube.com/watch?v=UT5F9AXjwhg'
+        height={235}
+        src={Fact}
         />
   )
 }
