@@ -7,11 +7,10 @@ const ContactMe = () => {
 
       <h1 className='headerFont'>Let's Connect!</h1>
 
-      <div>
+      <div className='CMBlurb'>
         
-        <p className='CMBlurb'>I'd love to connect! Find me on <strong>LinkedIn</strong> or <strong>Github</strong> to see what I've been up to lately!</p><br/>
-
-        <p className='CMBlurb'>I'm also interested in finding full-time employment as of January 2023. If you think I would be a good fit for a role, please don't hesitate to reach out to me!</p>
+        <p>I'd love to connect! Find me on <strong>LinkedIn</strong> or <strong>Github</strong> to see what I've been up to lately!</p>
+        <p>I'm also interested in finding full-time employment as of January 2023. If you think I would be a good fit for a role, please don't hesitate to reach out to me!</p>
 
       </div>
       

@@ -10,17 +10,18 @@ const Projects = () => {
       <h1 className='headerFont'>My Projects</h1>
       
       <div className='PContent'>
-        <div className='PProjectList'>
-          <Link className='PurpleBtn' to="Giftr" >Giftr</Link>
-          <Link className='PurpleBtn' to="FactGenerator">Fact Generator</Link>
-          <Link className='disabledPurpleBtn'>Coming Soon...</Link>
-        </div>
         
-        <Routes className="PRightSideContent">
+        <Routes>
             <Route path='/' element={<Giftr/>} />
             <Route path='Giftr' element={<Giftr />} />
             <Route path='FactGenerator' element={<FactGenerator />} />
-          </Routes>
+        </Routes>
+
+        <div className='PProjectList'>
+          <Link className='PurpleBtn' to="Giftr" >Giftr</Link>
+          <Link className='PurpleBtn' to="FactGenerator">Fact Generator</Link>
+          <Link className='disabledPurpleBtn'>More to come!</Link>
+        </div>
       </div>
     </div>
   )

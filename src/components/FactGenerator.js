@@ -3,13 +3,13 @@ import FactVideo from './FactVideo'
 
 const FactGenerator = () => {
   return (
-    <div className='PRightSideContent'>
+    <div className='PLeftSideContent'>
 
       <h1 className="subHeaderFont">Fact Generator</h1>
 
       <div className='PIndividualContent'>
 
-        <div className='PMadeWith'>
+        <div className='MadeWith'>
 
           <strong>Made with:</strong>
           <p>JavaScript</p>
@@ -18,8 +18,10 @@ const FactGenerator = () => {
           <p>Bootstrap</p>
           <p>MongoDB</p>
         </div>
-        <div className='PDescription'>
-          <p> My Fact Generator application stays true to its name. This application generates random fact for you, which you are able to save into a favorites list. </p>
+        <div className='Description'>
+          <p> My Fact Generator application stays true to its name. This application generates random facts for you, which you are able to save into a favorites list. </p>
+
+          <p> This application was built with JavaScript, Express, React, Bootstrap, and MongoDB. </p>
           <p>I build this application to get more familiar with API calls, the React framework, and full-stack JavaScript projects.</p>
         </div>
       </div>
