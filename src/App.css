@@ -39,8 +39,8 @@ purple
   margin: 20px;
   padding: 20px;
   font-size: 25px;
-  border-bottom: 1px solid black
-
+  border-bottom: 1px solid black;
+  height: 20%
 }
 
 h1 {
@@ -223,7 +223,6 @@ h1 {
   justify-content: center;
   box-shadow: 1px 1px 2px black;
   font-weight: 600;
-  /* background-color: black; */
 }
 
 .Language {
@@ -250,7 +249,7 @@ h1 {
   /* color: rgb(147, 4, 147); */
   font-weight: 700;
   box-shadow: 5px 5px 15px rgb(74, 74, 74);
-  background-color: rgb(139, 139, 139);
+  background-color: rgb(181, 181, 181);
 }
 
 
@@ -258,6 +257,8 @@ h1 {
 
 .ABContent {
   display: flex;
+  align-items: center;
+  height: 60%;
 }
 
 .ABLeft {
@@ -268,6 +269,20 @@ h1 {
 .ABHeader {
   display: flex;
   justify-content: space-evenly;
+}
+
+
+.ABBlurb{
+  line-height: 170%;
+}
+
+.ABRight {
+  width: 30%;
+  padding: 0px 50px 0px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 1px solid black;
 }
 
 .PurpleBtn{
@@ -304,19 +319,6 @@ h1 {
 .PurpleBtn:hover {
   box-shadow: 3px 3px 5px black;
   background-color: #a46cb6;
-}
-
-.ABBlurb{
-  line-height: 170%;
-}
-
-.ABRight {
-  width: 30%;
-  padding: 0px 50px 0px 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  border-left: 1px solid black;
 }
 
 
